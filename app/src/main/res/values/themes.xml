@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.DisabilityAndroidCode" parent="Theme.AppCompat.Light">
+        <!-- Customize your light theme here. -->
+         <item name="colorPrimary">@color/black</item>
+        <item name="android:statusBarColor">@color/black</item>
+        <item name="android:textColorPrimary">@color/white</item>
+    </style>
+
+    <style name="Theme.DisabilityAndroidCode" parent="Base.Theme.DisabilityAndroidCode" />
+</resources>
