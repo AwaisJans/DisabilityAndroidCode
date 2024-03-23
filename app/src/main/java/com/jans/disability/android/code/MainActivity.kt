@@ -28,10 +28,14 @@ class MainActivity : AppCompatActivity() {
             R.id.rvList
         ) as RecyclerView
         listiner = ClickListiner { index ->
-            Toast.makeText(this@MainActivity, "clicked item index is $index", Toast.LENGTH_LONG).show() }
+            Toast.makeText(this@MainActivity,
+                "clicked item index is $index", Toast.LENGTH_LONG).show()
+        }
+
         adapter = ImageGalleryAdapter2(
             list, application, listiner
         )
+
         recyclerView!!.adapter = adapter
         recyclerView!!.layoutManager = LinearLayoutManager(this@MainActivity)
 
